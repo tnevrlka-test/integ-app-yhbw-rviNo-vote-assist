@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-ipyw
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/integration1-emvw-tenant/integ-app-yhbw/hacbs-test-project-ipyw@sha256:9789ef06b288266556d461d8fb26e96360bec88bf5ff4d1f5bea4e379bb4b7a2
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
