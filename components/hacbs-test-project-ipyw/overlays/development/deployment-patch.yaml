@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-ipyw
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/integration1-emvw-tenant/integ-app-yhbw/hacbs-test-project-ipyw@sha256:9789ef06b288266556d461d8fb26e96360bec88bf5ff4d1f5bea4e379bb4b7a2
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
